@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #055a05; /*forest green*/
+    --secondary-color: #f4a261; /*warm sand*/
+    --accent1-color: #264653;/*dark slate blue*/
+    --accent2-color: #264653; /*light golden yellow*/
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var (--accent2-color);
+    
+}
+body{
+    font-family: var(--body-font);
+    color: ver(--accent1-color);
+}
+
+hearder, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+h1, h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article{
+    margin: 16px;
+    padding: 8px;
+}
+/*social media links*/
+.socialmedia a{
+    text-decoration: none;
+}
+    
+
