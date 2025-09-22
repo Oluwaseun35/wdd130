@@ -46,7 +46,7 @@ nav, p, section, article{
 }
 
 .hero img{
-dispaly: block;
+display: block;
 width: 100%;
 height: auto;
 }
